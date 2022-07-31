@@ -2,7 +2,7 @@ import HornedBeast from './HornedBeast.js';
 import React from 'react';
 
 import Card from 'react-bootstrap/Card'
-import HornCount from './HornCount.js';
+// import HornCount from './HornCount.js';
 
 
 
@@ -10,9 +10,9 @@ class Main extends React.Component {
   render() {
     return (
       <div>
-        <HornCount
+        {/* <HornCount
           presentBeasts={this.props.presentBeasts} 
-        />
+        /> */}
         <Card> 
           {this.props.beasts.map((thisBeast, index) => {
             return (
